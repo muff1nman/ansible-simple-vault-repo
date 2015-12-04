@@ -1,0 +1,4 @@
+- hosts: localhost
+  become: True
+  tasks:
+    - package: name=ansible state=latest
