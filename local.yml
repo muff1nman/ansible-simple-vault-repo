@@ -1,3 +1,6 @@
 - hosts: localhost
+  vars_files:
+    - secret.yml
   tasks:
     - debug: var=ansible_pkg_mgr
+    - debug: var=secret
