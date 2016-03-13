@@ -1,2 +1,2 @@
 # configme
-test for pull
+vault password is "pass"
